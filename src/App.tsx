@@ -6,6 +6,7 @@ import Slider from "@/components/sections/Slider";
 import Reviews from "./components/sections/Reviews";
 import SupportedLeadCRM from "./components/sections/SupportedLeadCRM";
 import LeadCRMBanner from "./components/sections/LeadCRMBanner";
+import SalesSolution from "./components/sections/SalesSolution";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <CRM />
       <HowItWorks />
       <Reviews />
+      <SalesSolution />
       <SupportedLeadCRM />
       <LeadCRMBanner />
       {/* Add Features, CTA, Pricing, etc. here */}
