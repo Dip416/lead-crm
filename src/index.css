@@ -73,6 +73,15 @@
 body {
  font-family: 'Exo 2 Variable', sans-serif;
 }
+body::-webkit-scrollbar {
+  @apply w-2;
+}
+body::-webkit-scrollbar-thumb {
+  @apply bg-deep-blue rounded-[10px];
+}
+body::-webkit-scrollbar-track {
+ @apply bg-primary;
+}
 
 @custom-variant dark (&:is(.dark *));
 
